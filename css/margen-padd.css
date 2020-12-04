@@ -1,0 +1,62 @@
+
+article, section {
+	padding: 1em;
+	margin: 1em;
+}
+
+address {
+	margin: 0.2em 0;
+}
+
+nav ul {
+	margin: 0 0 1em 0;
+	padding: 1.5em;
+}
+
+nav ul li a {
+	padding: 1.4em;
+}
+
+footer {
+	margin: 2em;
+}
+
+section img {
+	padding: 0em 3em;
+}
+
+article + section {
+	padding: 0;
+}
+
+.largetx {
+	margin: 0.2em 0;
+}
+
+.nomargin-top {
+	margin-top: 0;
+}
+
+.nomargin-bottom {
+	margin-bottom: 0;
+}
+
+#bio {
+	margin: 1em 3em 1em 1em;
+	padding: 0 1.5em;
+}
+
+#bio a {
+	margin-top: -1em;
+}
+
+#bio> :first-child {
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#bio > * {
+	margin: 1.2em 0 0 0;
+	padding: 1.2em 0 0 0;
+}
